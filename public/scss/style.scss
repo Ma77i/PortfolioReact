@@ -1,0 +1,79 @@
+@import "variables/color";
+@import "variables/fuentes";
+@import "secciones/sobre";
+@import "secciones/trabajos";
+@import "secciones/contacto";
+@import "secciones/footer";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+    .foto {
+        margin: 0 40%;
+        width: 20%;
+    }
+
+    .navBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .link {
+            text-decoration: none;
+
+            .navList {
+                font-family: $zen;
+                font-size: 2rem;
+                text-transform: uppercase;
+                list-style: none;
+                color: $yellow;
+                padding: 2px 35px;
+                letter-spacing: 0.3rem;
+            }
+    
+            .navList:hover {
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .title,
+    .subTitle {
+        background-color: rgb(255, 230, 0);
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.2rem;
+    }
+
+    .title {
+        font-family: $lato;
+        font-size: 4rem;
+        margin-top: 5%;
+        padding: 7px 10px;
+    }
+
+    .subTitle {
+        font-family: $zen;
+    }
+
+    .midTitle {
+        font-family: $rubik;
+        color: $white;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        margin: 2%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+
+
+}

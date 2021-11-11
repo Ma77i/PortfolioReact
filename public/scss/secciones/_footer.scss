@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icons {
+        i {
+            text-decoration: none;
+            color: $yellow;
+            padding: 15px;
+        }
+    }
+}

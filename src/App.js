@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import Imagen from './components/Imagen';
+import Titulo from './components/Titulo';
+import SobreMi from './components/SobreMi';
+import Trabajos from './components/Trabajos';
+import Contacto from './components/Contacto';
+import Footer from './components/Footer';
+import BioHack from './components/Works.jsx/BioHack';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Imagen />
+        <Routes>
+          <Route path="/" element={<NavBar/>} />
+          <Route path="sobreMi" element={<SobreMi/>} />
+          <Route path="trabajos" element={<Trabajos/>} />
+          <Route path="contacto" element={<Contacto/>} />
+          <Route path="trabajos/bioHacker" element={<BioHack/>} />
+        </Routes>
+        <Titulo/>
+        <Footer />
+    </Router>
   );
 }
 

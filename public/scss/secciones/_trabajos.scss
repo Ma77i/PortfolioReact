@@ -1,0 +1,19 @@
+.trabajos {
+    .jobTitle {
+        font-family: $lato;
+        color: $yellow;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+    }
+    .jobCont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        .workFoto {
+            width: 20%;
+        }
+        }
+    }
+}
