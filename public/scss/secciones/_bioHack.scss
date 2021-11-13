@@ -1,0 +1,16 @@
+.works {
+    margin: 5% 10%;
+    .worksContent {
+        display: flex;
+        .worksFoto {
+            width: 480px;
+        }
+        .parrafos {
+            margin: 0 2%;
+            line-height: 1.5rem;
+            letter-spacing: 0.1rem;
+            font-family: $lato;
+            color: $white;
+        }
+    }
+}

@@ -6,7 +6,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5rem; }
 
-.sobreMi .aboutMe {
+.sobreMi .aboutMe, .sobreMi .parrafos {
   margin: 2% 25%;
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
@@ -35,7 +35,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly; }
-  .trabajos .jobCont .jobLink .workFoto {
+  .trabajos .jobCont .workFoto {
     width: 20%; }
 
 .contacto .contacTitle {
@@ -45,117 +45,83 @@
   text-transform: uppercase;
   letter-spacing: 0.5rem; }
 
-.contacto #form {
-  position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
-  /* on hover placeholder */ }
-  .contacto #form input::-webkit-input-placeholder,
-  .contacto #form textarea::-webkit-input-placeholder {
-    color: #aca49c;
-    font-size: 0.875em; }
-  .contacto #form input:focus::-webkit-input-placeholder,
-  .contacto #form textarea:focus::-webkit-input-placeholder {
-    color: #bbb5af; }
-  .contacto #form input::-moz-placeholder,
-  .contacto #form textarea::-moz-placeholder {
-    color: #aca49c;
-    font-size: 0.875em; }
-  .contacto #form input:focus::-moz-placeholder,
-  .contacto #form textarea:focus::-moz-placeholder {
-    color: #bbb5af; }
-  .contacto #form input::placeholder,
-  .contacto #form textarea::placeholder {
-    color: #aca49c;
-    font-size: 0.875em; }
-  .contacto #form input:focus::placeholder,
-  .contacto #form textarea::focus:placeholder {
-    color: #bbb5af; }
-  .contacto #form input::-ms-placeholder,
-  .contacto #form textarea::-ms-placeholder {
-    color: #aca49c;
-    font-size: 0.875em; }
-  .contacto #form input:focus::-ms-placeholder,
-  .contacto #form textarea:focus::-ms-placeholder {
-    color: #bbb5af; }
-  .contacto #form input:hover::-webkit-input-placeholder,
-  .contacto #form textarea:hover::-webkit-input-placeholder {
-    color: #e2dedb;
-    font-size: 0.875em; }
-  .contacto #form input:hover:focus::-webkit-input-placeholder,
-  .contacto #form textarea:hover:focus::-webkit-input-placeholder {
-    color: #cbc6c1; }
-  .contacto #form input:hover::-moz-placeholder,
-  .contacto #form textarea:hover::-moz-placeholder {
-    color: #e2dedb;
-    font-size: 0.875em; }
-  .contacto #form input:hover:focus::-moz-placeholder,
-  .contacto #form textarea:hover:focus::-moz-placeholder {
-    color: #cbc6c1; }
-  .contacto #form input:hover::placeholder,
-  .contacto #form textarea:hover::placeholder {
-    color: #e2dedb;
-    font-size: 0.875em; }
-  .contacto #form input:hover:focus::placeholder,
-  .contacto #form textarea:hover:focus::placeholder {
-    color: #cbc6c1; }
-  .contacto #form input:hover::placeholder,
-  .contacto #form textarea:hover::placeholder {
-    color: #e2dedb;
-    font-size: 0.875em; }
-  .contacto #form input:hover:focus::-ms-placeholder,
-  .contacto #form textarea:hover::focus:-ms-placeholder {
-    color: #cbc6c1; }
-  .contacto #form input {
-    font-family: 'Lato', sans-serif;
-    font-size: 0.875em;
-    width: 470px;
-    height: 50px;
-    padding: 0px 15px 0px 15px;
-    background: transparent;
-    outline: none;
-    color: #726659;
-    border: solid 1px #b3aca7;
-    border-bottom: none;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out; }
-  .contacto #form input:hover {
-    background: #b3aca7;
-    color: #e2dedb; }
-  .contacto #form textarea {
-    width: 470px;
-    max-width: 470px;
-    height: 110px;
-    max-height: 110px;
-    padding: 15px;
-    background: transparent;
-    outline: none;
-    color: #726659;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.875em;
-    border: solid 1px #b3aca7;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out; }
-  .contacto #form textarea:hover {
-    background: #b3aca7;
-    color: #e2dedb; }
-  .contacto #form #submit {
-    width: 502px;
-    padding: 0;
-    margin: -5px 0px 0px 0px;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.875em;
-    color: #b3aca7;
-    outline: none;
-    cursor: pointer;
-    border: solid 1px #b3aca7;
-    border-top: none; }
-  .contacto #form #submit:hover {
-    color: #e2dedb; }
+.contacto #contact {
+  width: 100%;
+  height: 100%; }
+  .contacto #contact .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    max-width: 840px;
+    padding: 20px;
+    /* Left contact page */
+    /* Begin Right Contact Page */
+    /* Location, Phone, Email Section */ }
+    .contacto #contact .contact-wrapper .form-horizontal {
+      max-width: 400px;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column; }
+      .contacto #contact .contact-wrapper .form-horizontal .form-control, .contacto #contact .contact-wrapper .form-horizontal textarea {
+        max-width: 400px;
+        background-color: #000;
+        color: #fff;
+        letter-spacing: 1px;
+        font-family: "Rubik", sans-serif;
+        padding: 3px;
+        border-radius: 10px;
+        margin: 3px;
+        text-align: center; }
+      .contacto #contact .contact-wrapper .form-horizontal .send-button {
+        margin-top: 15px;
+        height: 34px;
+        width: 400px;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        font-family: "Rubik", sans-serif;
+        cursor: pointer; }
+      .contacto #contact .contact-wrapper .form-horizontal .send-text {
+        display: block;
+        margin-top: 10px;
+        font: 700 12px 'Lato', sans-serif;
+        letter-spacing: 2px; }
+      .contacto #contact .contact-wrapper .form-horizontal .alt-send-button:hover {
+        transform: translate3d(0px, -29px, 0px); }
+    .contacto #contact .contact-wrapper .direct-contact-container {
+      max-width: 400px; }
+    .contacto #contact .contact-wrapper .contact-list {
+      list-style-type: none;
+      margin-left: -30px;
+      padding-right: 20px; }
+    .contacto #contact .contact-wrapper .list-item {
+      line-height: 4;
+      color: #aaa; }
+    .contacto #contact .contact-wrapper .contact-text {
+      font: 300 18px 'Lato', sans-serif;
+      letter-spacing: 1.9px;
+      color: #bbb; }
+    .contacto #contact .contact-wrapper .place {
+      margin-left: 62px; }
+    .contacto #contact .contact-wrapper .phone {
+      margin-left: 56px; }
+    .contacto #contact .contact-wrapper .gmail {
+      margin-left: 53px; }
+    .contacto #contact .contact-wrapper .contact-text a {
+      color: #bbb;
+      text-decoration: none;
+      transition-duration: 0.2s; }
+    .contacto #contact .contact-wrapper .contact-text a:hover {
+      color: #fff;
+      text-decoration: none; }
+
+@media screen and (max-width: 410px) {
+  .contacto .send-button {
+    width: 99%; } }
 
 footer {
   display: flex;
@@ -165,6 +131,19 @@ footer {
     text-decoration: none;
     color: rgba(255, 230, 0, 0.795);
     padding: 15px; }
+
+.works {
+  margin: 5% 10%; }
+  .works .worksContent {
+    display: flex; }
+    .works .worksContent .worksFoto {
+      width: 480px; }
+    .works .worksContent .parrafos {
+      margin: 0 2%;
+      line-height: 1.5rem;
+      letter-spacing: 0.1rem;
+      font-family: "Lato", sans-serif;
+      color: white; }
 
 * {
   margin: 0%;
@@ -212,5 +191,4 @@ body {
     text-align: center;
     letter-spacing: 0.2rem;
     margin: 2%;
-    margin-top: 5%;
     font-size: 1.5rem; }
