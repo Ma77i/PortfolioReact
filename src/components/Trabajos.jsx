@@ -8,11 +8,19 @@ const Trabajos = () => {
             <h1 className="jobTitle">Trabajos</h1>
             <h3 className="midTitle">Estos son los trabajos que he realizado hasta el momento</h3>
 
-                        <div className="jobCont">
-                            <Link className='jobLink' to="bioHacker"><img className="workFoto" src="../img/bioHack.png" alt="" /></Link>
-                            <Link className='jobLink' to="dWebProj"><img className="workFoto" src="../img/dWebProject.png" alt="" /></Link>
-                            <Link className='jobLink' to="jsProj"><img className="workFoto" src="../img/jsProject.png" alt="" /></Link>
-                            <Link className='jobLink' to="reactProj"><img className="workFoto" src="../img/reactProject.png" alt="" /></Link>
+            <div className="jobCont">
+                <Link className='jobLink' to="bioHacker">
+                    <img className="workFoto" src="../img/bioHack.png" alt="" />
+                </Link>
+                <Link className='jobLink' to="dWebProj">
+                    <img className="workFoto" src="../img/dWebProject.png" alt="" />
+                </Link>
+                <Link className='jobLink' to="jsProj">
+                    <img className="workFoto" src="../img/jsProject.png" alt="" />
+                </Link>
+                <Link className='jobLink' to="reactProj">
+                    <img className="workFoto" src="../img/reactProject.png" alt="" />
+                </Link>
             </div>
         </div>
     )

@@ -58,10 +58,34 @@
                     font: 700 12px 'Lato', sans-serif;
                     letter-spacing: 2px;
                 }
-    
-                .alt-send-button:hover {
-                    transform: translate3d(0px, -29px, 0px);
-                }
+
+                button {
+                    padding: 1.3em 3em;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: 2.5px;
+                    font-weight: 500;
+                    color: #000;
+                    background-color: #fff;
+                    border: none;
+                    border-radius: 45px;
+                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                    transition: all 0.3s ease 0s;
+                    cursor: pointer;
+                    outline: none;
+                   }
+                   
+                   button:hover {
+                    background-color: #e2e52e;
+                    box-shadow: 0px 5px 20px rgba(46, 229, 157, 0.4);
+                    color: rgb(0, 0, 0);
+                    font-size: 11px;
+                    transform: translateY(-4px);
+                   }
+                   
+                   button:active {
+                    transform: translateY(-2px);
+                   }
     
             }
 

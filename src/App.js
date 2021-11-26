@@ -10,6 +10,7 @@ import ReactProj from './components/Works.jsx/ReactProj';
 import DWebProj from './components/Works.jsx/DWebProj';
 import JSProj from './components/Works.jsx/JSProj';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Clock from './components/Clock';
 
 
 
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <Router>
+        <Clock />
         <Imagen />
         <Routes>
           <Route path="/" element={<NavBar/>} />
