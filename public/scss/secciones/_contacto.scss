@@ -73,19 +73,19 @@
                     transition: all 0.3s ease 0s;
                     cursor: pointer;
                     outline: none;
-                   }
-                   
-                   button:hover {
+                }
+
+                button:hover {
                     background-color: #e2e52e;
                     box-shadow: 0px 5px 20px rgba(46, 229, 157, 0.4);
                     color: rgb(0, 0, 0);
                     font-size: 11px;
                     transform: translateY(-4px);
-                   }
-                   
-                   button:active {
+                }
+
+                button:active {
                     transform: translateY(-2px);
-                   }
+                }
     
             }
 
@@ -137,15 +137,23 @@
 
         }
     }
+}
 
 
 
+@media (max-width: 576px) {
 
-
-
-    @media screen and (max-width: 410px) {
-        .send-button {
-            width: 99%;
+.contacto{    #contact {
+        .contact-wrapper {
+            flex-direction: column;
+            align-items: center;
+            form {
+                margin-bottom: 5%;
+            }
+            .send-button {
+                width: 99%;
+            }
         }
-    }
+    }}
+
 }
