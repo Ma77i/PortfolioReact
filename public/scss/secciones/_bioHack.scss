@@ -14,3 +14,12 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .works {
+        .worksContent {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
