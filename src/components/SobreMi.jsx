@@ -4,9 +4,10 @@ const SobreMi = () => {
             <h1 className="sobreTitle">Sobre Mi</h1>
             <h3 className="midTitle"><strong>Hola, mi nombre es Matias Silva</strong></h3>
         
-            <p className="aboutMe">Soy estudiante de la carrera de Desarrollo Web Full-Stack en Coderhouse,
-                actualmente tengo finalizados los cursos de Desarrollo Web, Javascript y React, completando asi la carrera
-                de Front-end. En este corto recorrido he creado algunos proyectos que si te interesan puedes verlos aqui.
+            <p className="aboutMe">Tutor de ReactJS y estudiante de la carrera de Desarrollo Web Full Stack en Coderhouse.
+                Hasta el momento he completado la parte frontend y me encuentro finalizando backend.
+                Fui parte del Top10 de estudiantes, lo que me dio la oportunidad de formar parte de un proyecto real freelance, en el cual desarrollamos una web para BiohackerMx. 
+                En este corto recorrido he creado algunos proyectos que si te interesan puedes verlos aqui.
             </p>
 
             <h3 className="midTitle">Habilidades</h3>
