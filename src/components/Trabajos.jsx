@@ -5,8 +5,7 @@ const Trabajos = () => {
 
     return (
         <div className="trabajos">
-            <h1 className="jobTitle">Trabajos</h1>
-            <h3 className="midTitle">Estos son los trabajos que he realizado hasta el momento</h3>
+            <h1 className="jobTitle">Works</h1>
 
             <div className="jobCont">
                 <Link className='jobLink' to="bioHacker">

@@ -10,11 +10,11 @@
     }
 
     .aboutMe, .parrafos {
-        margin: 2% 25%;
+        margin: 2% 5%;
         line-height: 1.5rem;
         letter-spacing: 0.1rem;
         font-family: $lato;
-        color: $white;
+        color: $black;
         text-align: center;
     }
 
@@ -34,6 +34,9 @@
 
 
 @media (max-width: 576px) {
+    .aboutMe, .parrafos {
+        margin: 2% 25%;
+    }
     .habilidades {
         flex-wrap: wrap;
     }

@@ -15,7 +15,7 @@ const Contacto = () => {
 
     return (
         <div className="contacto">
-            <h1 className="contacTitle">Contacto</h1>
+            <h1 className="contacTitle">Contact</h1>
 
             <section id="contact">
                 <div className="contact-wrapper">
@@ -24,7 +24,7 @@ const Contacto = () => {
                             type="text" 
                             className="form-control" 
                             id="name" 
-                            placeholder="Nombre" 
+                            placeholder="Name" 
                             name="name" required 
                         />
                         <input 
@@ -37,10 +37,10 @@ const Contacto = () => {
                         <textarea 
                             className="form-control" 
                             rows="6" 
-                            placeholder="Mensaje" 
+                            placeholder="Message" 
                             name="message" required 
                         />
-                        <button className="send-button" id="submit" type="submit" value="SEND">ENVIAR</button>
+                        <button className="send-button" id="submit" type="submit" value="SEND">SEND</button>
                     </form>
                     
                     <div className="direct-contact-container">
@@ -66,7 +66,7 @@ const Contacto = () => {
                         </li>
                         
                         </ul>
-                        <div className="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+                        <div className="copyright">copyright &copy; Matias Silva</div>
                     </div>
                     
                 </div>
