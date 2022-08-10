@@ -3,14 +3,14 @@ import { useRef } from 'react'
 
 const Contacto = () => {
     
-    const contactForm = useRef(null)
+    // const contactForm = useRef(null)
     
-    const handleSubmit = e => {
-        e.preventDefault();
-        e.target.elements.name.value = '';
-        e.target.elements.email.value = '';
-        e.target.elements.message.value = '';
-    };
+    // const handleSubmit = e => {
+    //     e.preventDefault();
+    //     e.target.elements.name.value = '';
+    //     e.target.elements.email.value = '';
+    //     e.target.elements.message.value = '';
+    // };
 
 
     return (
@@ -19,7 +19,7 @@ const Contacto = () => {
 
             <section id="contact">
                 <div className="contact-wrapper">
-                    <form ref={contactForm} onSubmit={handleSubmit} className="form-horizontal">
+                    {/* <form ref={contactForm} onSubmit={handleSubmit} className="form-horizontal">
                         <input 
                             type="text" 
                             className="form-control" 
@@ -41,7 +41,7 @@ const Contacto = () => {
                             name="message" required 
                         />
                         <button className="send-button" id="submit" type="submit" value="SEND">SEND</button>
-                    </form>
+                    </form> */}
                     
                     <div className="direct-contact-container">
                         <ul className="contact-list">

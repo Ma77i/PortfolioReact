@@ -194,7 +194,7 @@ footer {
       line-height: 1.5rem;
       letter-spacing: 0.1rem;
       font-family: "Lato", sans-serif;
-      color: white; }
+      color: black; }
 
 @media (max-width: 576px) {
   .works .worksContent {

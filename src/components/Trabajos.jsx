@@ -20,6 +20,9 @@ const Trabajos = () => {
                 <Link className='jobLink' to="reactProj">
                     <img className="workFoto" src="../img/reactProject.png" alt="" />
                 </Link>
+                <Link className='jobLink' to="backProj">
+                    <img className="workFoto" src="../img/backProject.png" alt="" />
+                </Link>
             </div>
         </div>
     )
